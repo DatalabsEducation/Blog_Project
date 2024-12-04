@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f9f6;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+.dropdown-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+.destinations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.destination {
+    display: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #95d5b2;
+    border-radius: 5px;
+    color: #fff;
+}
+.destination.show {
+    display: block;
+}
